@@ -1,0 +1,67 @@
+body {
+    background-color: #FFE6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+.container {
+    background-color: #AD88C6;
+    text-align: center; 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+canvas {
+    border: 1px solid rgb(69, 59, 59);
+    display: block;
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #af4c95; 
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+
+button:hover {
+    background-color: #FF70AB 
+}
+
+#diceCanvas {
+    color: #AD88C6;
+    align: center;
+    display:ruby-base;
+}
+
+.roll-button {
+    display:block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #af4c95; 
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.roll-button:hover {
+    background-color: #7469B6; 
+}
+
